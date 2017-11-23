@@ -1,0 +1,28 @@
+{
+  "name": "cli-confirm",
+  "version": "1.0.0",
+  "description": "Tiny module to confirm execution of npm scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "cli-confirm 'Are you sure?'"
+  },
+  "bin": {
+    "cli-confirm": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmtoball/cli-confirm.git"
+  },
+  "keywords": [
+    "npm",
+    "scripts",
+    "confirm",
+    "prompt"
+  ],
+  "author": "Johannes Maximilian Toball",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmtoball/cli-confirm/issues"
+  },
+  "homepage": "https://github.com/jmtoball/cli-confirm#readme"
+}
