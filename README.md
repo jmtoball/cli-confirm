@@ -11,7 +11,7 @@ work for me.
 ```
 […]
   "scripts" {
-    "self-destruct-servers": "cli-confirm 'Do you really want to blow up the servers?' && npm run destroy:servers",
+    "self-destruct-servers": "cli-confirm \"Do you really want to blow up the servers?\" && npm run destroy:servers",
   }
 […]
 ```

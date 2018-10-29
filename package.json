@@ -4,7 +4,7 @@
   "description": "Tiny module to confirm execution of npm scripts",
   "main": "index.js",
   "scripts": {
-    "test": "cli-confirm 'Are you sure?'"
+    "test": "cli-confirm \"Are you sure?\" && echo \"do it\""
   },
   "bin": {
     "cli-confirm": "index.js"
