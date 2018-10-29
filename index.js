@@ -10,9 +10,9 @@ stdin.setEncoding('utf8')
 
 stdin.on('data', function (chunk) {
   console.log(`${chunk}`)
-  if (['y', 'n', 'c'].indexOf(chunk.toLowerCase())) {
-    process.exit(1)
-  } else {
+  if (chunk.toLowerCase() === 'y') {
     process.exit(0)
+  } else {
+    process.exit(1)
   }
 })
